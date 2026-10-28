@@ -1,0 +1,47 @@
+# =============================================================================
+# Nokia CMG Reachability Tracker — Git Ignore Configuration
+# =============================================================================
+
+# Proprietary / Customer Circle Datasets (Explicitly Excluded)
+Data 1/
+Data 2/
+Data 3/
+Data*/
+data*/
+
+# All Excel Workbooks (Inputs, Outputs, Test & Reference Trackers)
+*.xlsx
+*.xlsm
+*.xls
+~$*.xlsx
+~$*.xlsm
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Scratch Scripts & Local Test Outputs
+scratch/
+verify_mohali.py
+*.log
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
