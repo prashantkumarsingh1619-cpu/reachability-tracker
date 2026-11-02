@@ -82,7 +82,7 @@ flowchart LR
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/reachability-tracker.git
+git clone https://github.com/prashantkumarsingh1619-cpu/reachability-tracker.git
 cd reachability-tracker
 ```
 
