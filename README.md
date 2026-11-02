@@ -116,20 +116,6 @@ Options:
 
 ---
 
-## ☁️ Deployment Guide
-
-### Deploying to Streamlit Community Cloud (Free & Instant)
-
-1. **Push to GitHub**:
-   Ensure you push this repository to your GitHub account (the `.gitignore` is already set up to exclude proprietary circle data folders like `Data 1`, `Data 2`, `Data 3` and all customer `.xlsx` files).
-2. **Open Streamlit Cloud**:
-   Go to [share.streamlit.io](https://share.streamlit.io/) and log in with your GitHub account.
-3. **Create New App**:
-   * **Repository**: `<your-username>/reachability-tracker`
-   * **Branch**: `main` (or `master`)
-   * **Main file path**: `app.py`
-4. **Click Deploy**:
-   Streamlit Cloud will read `requirements.txt`, install dependencies, apply `.streamlit/config.toml`, and launch your application at a permanent public URL (e.g., `https://reachability-tracker.streamlit.app`).
 
 ---
 
