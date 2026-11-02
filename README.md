@@ -113,10 +113,6 @@ Options:
 * `--input-dir`, `-i`: Directory containing the 3 source Excel files (`*CIQ*.xlsx`, `*UP-DATA-IP-Plan*.xlsx`, `*UP-IMS-IP-Plan*.xlsx`).
 * `--site`, `-s`: Site identifier (e.g., `Karnal-2`, `Mohali-5`). Auto-detected if omitted.
 * `--out`, `-o`: Output `.xlsx` filename.
-
----
-
-
 ---
 
 ## 📋 Required Source File Formats
